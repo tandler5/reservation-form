@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #feca00 !important; /* <-- Overriding Primary Color*/
+  --highlight-text-color: #fab40a !important;
+}
+.p-datepicker .p-yearpicker .p-yearpicker-year.p-highlight,
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  color: white !important;
+  background: rgb(250 180 10 / 90%) !important;
+}

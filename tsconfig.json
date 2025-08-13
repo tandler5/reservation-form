@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "compilerOptions": {
+    "lib": ["ESNext.Array", "DOM", "ESNext"],
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@queries/*": ["./src/api/queries/*"]
+    }
+  }
+}
